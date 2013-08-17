@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-    <title>Skillz</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="css/jumbotron-narrow.css" rel="stylesheet" media="screen">
-    </head>
-    <body>
-        
-
-        <div class="container">
-            <div class="header">
-                <ul class="nav nav-pills pull-right">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Share Your Skill</a></li>
-                    <li><a href="#">Request A Skill</a></li>
-                </ul>
-                
-                <h3 class="text-muted">DevSkillz</h3>
-            </div>
+<?php include 'head.php'; ?>
 
             <div class="row">
                 <div class="col-lg-12">
@@ -34,11 +13,11 @@
             <div class="row">
                 <div class="col-lg-6">
                     <h4>Help kickstart <i>DevSkillz</i> by offering up your skills:</h4>
-                    <button type="button" class="btn btn-primary btn-lg btn-block">Share your skill</button>
+                    <a href="/share-your-skill.php"><button type="button" class="btn btn-primary btn-lg btn-block">Share your skill</button></a>
                 </div>
                 <div class="col-lg-6">  
                     <h4>Want to learn a new skill? Request it here:</h4>              
-                    <button type="button" class="btn btn-primary btn-lg btn-block">Request a skill</button>
+                    <a href="/request-a-skill.php"><button type="button" class="btn btn-primary btn-lg btn-block">Request a skill</button></a>
                 </div>
             </div>        
 
@@ -59,7 +38,7 @@
 
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="alert alert-success">Have a skill? Share it. Want a new skill? Request it.</div>
+                    <div class="alert alert-success">Have a skill? <a href="/share-your-skill.php">Share it</a>. Want a new skill? <a href="/request-a-skill.php">Request it</a>.</div>
                     <h3>Why?</h3>
                     <p>It's so easy to get left behind, our industry moves at an incredible pace. Just keeping up with the names of new technologies is hard enough. With this in mind we all know we need to keep learning, naturally we all have different roles, employees and of course personal interests in differing technologies - this diversity is fantastic.</p>
                     <p>Why can't we use this variety to help each other? An example: Node.js is on my list of things to look at - I don't need it in my day job, but I do want a passing knowledge of it (if only to get by in conversations at the bar during tech conferences)...so why can't we create a central place to request 'An intro to Node.js' - it maybe just be an extended lunch in Newcastle city centre. The developer who shared their skill may have a passing interest in React PHP they could then use their accrued 1 <i>DevSkillz</i> point for this purpose.</p>
@@ -71,21 +50,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h3>What next?</h3>
-                    <p>I think this idea has the idea to be of use to the wider public (not just dev related topics) - I would for example gladly share my photography skill with somebody and in return go off searching for somebody who can help me learn poker.</p>
+                    <p>I think this idea has the idea to be of use to the wider public (not just dev related topics) - I would for example gladly share my photography skill with somebody and in return go off searching for somebody who can help teach me how to play poker.</p>
                     <p>For now however (MVP and all that) I think we should stick with developer related subjects...who knows what will come of it.</p>
                 </div>
             </div>
           
-            <div class="footer">
-                <p>&copy; Matt Kirwan <?php echo date('Y', time()); ?></p>
-            </div>
-
-        </div>
-
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="//code.jquery.com/jquery.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
-
-    </body>
-</html>
+<?php include 'foot.php'; ?>
