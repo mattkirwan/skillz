@@ -35,7 +35,7 @@
 		{
 			
 			$body = "The following DevSkillz was shared:\n\n";
-			$body .= "Topic: {$submitted_data['topic']} - {$submitted_data['email']}\n";
+			$body .= "Topic: {$submitted_data['topic']}\n";
 			$body .= "Description: {$submitted_data['description']}\n";
 			$body .= "Email: {$submitted_data['email']}\n";
 			$body .= "Location: {$submitted_data['location']}";
@@ -45,7 +45,7 @@
 			$mailer = Swift_Mailer::newInstance($transport);
 
 			$message = Swift_Message::newInstance()
-				->setSubject('DevSkillz')
+				->setSubject('DevSkillz Share')
 				->setFrom(array('matt@viacreative.co.uk' => 'DevSkillz'))
 				->setTo(array('mail@mattkirwan.com'))
 				->setBody($body);

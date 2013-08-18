@@ -1,0 +1,1 @@
+<div class="alert alert-success"><strong>Niiiice!</strong> You've submitted your skill request. I'm currently manually collating them all, when we get a few more I will start to publish skill request on the site. - Matt</div>
