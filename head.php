@@ -1,3 +1,5 @@
+<?php include '../vendor/autoload.php'; ?>
+<?php include 'functions.php'; ?>
 <!DOCTYPE html>
 <html>
     <head>

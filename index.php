@@ -1,7 +1,7 @@
 <?php include 'head.php'; ?>
 
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 jumbotron">
                     <h1>Use your skills, to better your skills.</h1>
                     <p class="lead">Share your skills. Meet new people. Learn new skills.</p>
                 </div>
@@ -12,11 +12,11 @@
             
             <div class="row">
                 <div class="col-lg-6">
-                    <h4>Help kickstart <i>DevSkillz</i> by offering up your skills:</h4>
+                    <h3>Help kickstart <i>DevSkillz</i> by offering up your skills:</h3>
                     <a href="/share-your-skill.php"><button type="button" class="btn btn-primary btn-lg btn-block">Share your skill</button></a>
                 </div>
                 <div class="col-lg-6">  
-                    <h4>Want to learn a new skill? Request it here:</h4>              
+                    <h3>Want to learn a new skill? Request it here:</h3>              
                     <a href="/request-a-skill.php"><button type="button" class="btn btn-primary btn-lg btn-block">Request a skill</button></a>
                 </div>
             </div>        
