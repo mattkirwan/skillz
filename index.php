@@ -50,7 +50,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h3>What next?</h3>
-                    <p>I think this idea has the idea to be of use to the wider public (not just dev related topics) - I would for example gladly share my photography skill with somebody and in return go off searching for somebody who can help teach me how to play poker.</p>
+                    <p>I think this idea has the potential to be of use to the wider public (not just dev related topics) - I would for example gladly share my photography skill with somebody and in return go off searching for somebody who can help teach me how to play poker.</p>
                     <p>For now however (MVP and all that) I think we should stick with developer related subjects...who knows what will come of it.</p>
                 </div>
             </div>
