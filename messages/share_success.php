@@ -1,0 +1,1 @@
+<div class="alert alert-success"><strong>Epic!</strong> Your skill has been submitted. That's pretty frickin' cool how you want to use your skills to help others. Just so you know i'm just manually collating details, when we get a few more I will publish them so that we can all start learning new skills. - Matt</div>

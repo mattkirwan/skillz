@@ -54,20 +54,16 @@
 
 			if(false === $result)
 			{
-				?>
-				<div class="alert alert-danger"><strong>Ooops!</strong> There was an error processing your skill. Please correct any error(s) below.</div>
-				<?php
+				include 'messages/error.php';
 			}
 
 			$submitted_data = array();
-			$submit_another_skill_message = '<div class="alert alert-info"><strong>Got another skill to share?</strong> Go on...you know you want to.</div>';
-			?><div class="alert alert-success"><strong>Epic!</strong> Your skill has been submitted. That's pretty frickin' cool how you want to use your skills to help others. Just so you know i'm just manually collating details, when we get a few more I will publish them so that we can all start learning new skills. - Matt</div><?php
+			$submit_another_skill_message = true;
+			include 'messages/share_success.php';
 		}
 		else
 		{
-			?>
-			<div class="alert alert-danger"><strong>Ooops!</strong> There was an error processing your skill. Please correct any error(s) below.</div>
-			<?php
+			include 'messages/error.php';
 		}	
 	}
 ?>
@@ -80,7 +76,7 @@
             </div>
       		<div class="row">
                 <div class="col-lg-6"> 
-                	<?=$submit_another_skill_message;?>
+                	<?php if($submit_another_skill_message){include 'messages/share_again.php';}?>
                 	<p class="pull-right">*<small>required field</small></p>           
 					<form role="form" method="post" action="">
 						
